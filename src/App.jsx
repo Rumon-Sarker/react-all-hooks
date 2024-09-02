@@ -15,14 +15,14 @@ function App() {
     <>
       <h1>React All Hooks</h1>
       <UseState />
-      <UseEffect />
+      {/* <UseEffect />
       <UseRef />
       <UseMemo />
       <UseCallback />
       <UseContext />
       <UseReducer />
       <UseLayoutEffect />
-      <CustomHooks />
+      <CustomHooks /> */}
     </>
   )
 }
