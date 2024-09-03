@@ -15,7 +15,7 @@ const UseState = () => {
 
 
     return (
-        <div style={{ border: "3px solid red", padding: "12px", textAlign: "center" }}>
+        <div className='bodyStyle'>
             <h1>UseState Hooks</h1>
             <p> Count Number: {count}</p>
             <button onClick={IncrementHandaleChange}>Increment</button>

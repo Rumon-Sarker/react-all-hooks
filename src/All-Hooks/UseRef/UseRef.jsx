@@ -1,8 +1,7 @@
-import React from 'react';
 
 const UseRef = () => {
     return (
-        <div>
+        <div className='bodyStyle'>
             <h1>UseRef Hooks</h1>
         </div>
     );
