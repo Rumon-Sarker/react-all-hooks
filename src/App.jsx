@@ -21,7 +21,7 @@ function App() {
       <UseCallback />
       {/* <UseContext /> exchange to <UserProfile/> */}
       <UserProfile />
-      {/* <UseReducer /> */}
+      <UseReducer />
       {/* <UseLayoutEffect /> */}
       {/* <CustomHooks /> */}
     </>
