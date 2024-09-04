@@ -1,5 +1,6 @@
 import { createContext } from "react";
 
+//  context api 
 
 export const AuthProvider = createContext();
 

@@ -19,7 +19,6 @@ function App() {
       {/* <UseContext /> exchange to <UserProfile/> */}
       <UserProfile />
       <UseReducer />
-
     </>
   )
 }
