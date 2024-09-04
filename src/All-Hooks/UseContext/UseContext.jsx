@@ -1,11 +1,19 @@
-import React from 'react';
+import { createContext } from "react";
 
-const UseContext = () => {
+
+export const AuthProvider = createContext();
+
+const UseContext = ({ children }) => {
+    const userInfo = {
+        name: 'Rumon',
+        email: "mdsrrumon1234@gmail.com",
+        phone: "017*****67"
+    }
+
     return (
-        <div>
-            <h1> This is UseContext Hooks</h1>
-        </div>
-    );
-};
-
+        <AuthProvider.Provider value={{ userInfo }}>
+            {children}
+        </AuthProvider.Provider>
+    )
+}
 export default UseContext;

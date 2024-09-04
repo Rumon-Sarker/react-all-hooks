@@ -1,6 +1,7 @@
 import CustomHooks from './All-Hooks/CustomHooks/CustomHooks'
 import UseCallback from './All-Hooks/UseCallback/UseCallback'
 import UseContext from './All-Hooks/UseContext/UseContext'
+import UserProfile from './All-Hooks/UseContext/UserProfile'
 import UseEffect from './All-Hooks/UseEffect/UseEffect'
 import UseLayoutEffect from './All-Hooks/UseLayoutEffect/UseLayoutEffect'
 import UseMemo from './All-Hooks/UseMemo/UseMemo'
@@ -18,7 +19,8 @@ function App() {
       <UseRef />
       <UseMemo />
       <UseCallback />
-      {/* <UseContext /> */}
+      {/* <UseContext /> exchange to <UserProfile/> */}
+      <UserProfile />
       {/* <UseReducer /> */}
       {/* <UseLayoutEffect /> */}
       {/* <CustomHooks /> */}
