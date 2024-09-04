@@ -16,7 +16,7 @@ function App() {
       <UseState />
       <UseEffect />
       <UseRef />
-      {/* <UseMemo /> */}
+      <UseMemo />
       {/* <UseCallback /> */}
       {/* <UseContext /> */}
       {/* <UseReducer /> */}
